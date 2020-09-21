@@ -13,15 +13,14 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f64eb55a0222325"></script>
-
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light nav-distance">
         <a class="navbar-brand" href="#">과즙팡팡</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -33,8 +32,8 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
+                        Dropdown
+                    </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -43,33 +42,27 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a
-                        >
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input
-                        class="form-control mr-sm-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search"
-                    />
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                        Search
-                    </button>
-                </form>
-            </div>
-        </nav>
-        <selection class="hi">
-            <h3 class="hellow">
-                .
-            </h3>
-        </selection>
-        <selection class="section">
-            <h1 class="title">내과태</h1>
-            <h2 class="subtitle container">=내가 과일로 태어난다면?</h2>
-        </selection>
-        <!-- <selection class="container youtube d-flex flex-row-reverse bd-highlight">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                    Search
+                </button>
+            </form>
+        </div>
+    </nav>
+    <selection class="hi">
+        <h3 class="hellow">
+            .
+        </h3>
+    </selection>
+    <selection class="section">
+        <h1 class="title">내과태</h1>
+        <h2 class="subtitle container">=내가 과일로 태어난다면?</h2>
+    </selection>
+    <!-- <selection class="container youtube d-flex flex-row-reverse bd-highlight">
             <div class="youtube-cover">
                 <img src="" alt="" class="yutube-icon" /><a href="" class="youtube-link"
                     >made by 언수</a
@@ -77,180 +70,186 @@
             </div>
         </selection> -->
 
-        <!-- <selection class="madeby">
+    <!-- <selection class="madeby">
             <h1 class="title2 p-2 bd-highlight">made by 언수</h1> -->
 
-        <!-- </selection> -->
+    <!-- </selection> -->
 
-        <script
-            class="jsbin"
-            src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
-        ></script>
-        <div class="file-upload container">
-            <div class="image-upload-wrap container">
-                <input
-                    class="file-upload-input"
-                    type="file"
-                    onchange="readURL(this);"
-                    accept="image/*"
-                />
-                <div class="drag-text">
-                    <h3>너의 사진을 넣어줘♥</h3>
-                </div>
-            </div>
-            <div class="file-upload-content">
-                <img class="file-upload-image" id="imagefruit" src="#" alt="your image" />
-                <p class="result-message"></p>
-                <div id="label-container"></div>
-                
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox"></div>
-            
-                <div class="image-title-wrap">
-                    <button type="button" onclick="removeUpload()" class="remove-image">
-                        Remove <span class="image-title">Uploaded Image</span>
-                    </button>
-                </div>
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <div class="file-upload container">
+        <div class="image-upload-wrap container">
+            <input class="file-upload-input container" type="file" onchange="readURL(this);" accept="image/*" />
+            <div class="drag-text">
+                <h3>너의 사진을 넣어줘♥</h3>
             </div>
         </div>
-        <div id="webcam-container"></div>
-        <div id="label-container"></div>
-        <div id="disqus_thread"></div>
-        <script>
-            /**
-             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-            /*
+        <div class="file-upload-content">
+            <img class="file-upload-image" id="imagefruit" src="#" alt="your image" />
+            <p class="result-message"></p>
+            <span class="result-box"></span>
+            <div id="label-container"></div>
+
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox"></div>
+
+            <div class="image-title-wrap">
+                <button type="button" onclick="removeUpload()" class="remove-image">
+                    다른 사진 넣어보기 <span class="image-title"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="webcam-container"></div>
+    <div id="label-container"></div>
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
 var disqus_config = function () {
 this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
-            (function () {
-                // DON'T EDIT BELOW THIS LINE
-                var d = document,
-                    s = d.createElement('script');
-                s.src = 'https://silvermath.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript
-            >Please enable JavaScript to view the
-            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        (function() {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://silvermath.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-                    <!-- Optional JavaScript -->
-                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-                    <script type="text/javascript">
-                        // More API functions here:
-                        // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script type="text/javascript">
+        // More API functions here:
+        // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
-                        // the link to your model provided by Teachable Machine export panel
-                        const URL = 'https://teachablemachine.withgoogle.com/models/yrqa5l31e/';
+        // the link to your model provided by Teachable Machine export panel
+        const URL = 'https://teachablemachine.withgoogle.com/models/yrqa5l31e/';
 
-                        let model, webcam, labelContainer, maxPredictions;
+        let model, webcam, labelContainer, maxPredictions;
 
-                        // Load the image model and setup the webcam
-                        async function init() {
-                            const modelURL = URL + 'model.json';
-                            const metadataURL = URL + 'metadata.json';
+        // Load the image model and setup the webcam
+        async function init() {
+            const modelURL = URL + 'model.json';
+            const metadataURL = URL + 'metadata.json';
 
-                            // load the model and metadata
-                            // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
-                            // or files from your local hard drive
-                            // Note: the pose library adds "tmImage" object to your window (window.tmImage)
-                            model = await tmImage.load(modelURL, metadataURL);
-                            maxPredictions = model.getTotalClasses();
+            // load the model and metadata
+            // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
+            // or files from your local hard drive
+            // Note: the pose library adds "tmImage" object to your window (window.tmImage)
+            model = await tmImage.load(modelURL, metadataURL);
+            maxPredictions = model.getTotalClasses();
 
-                            // append elements to the DOM
-                            labelContainer = document.getElementById('label-container');
-                            for (let i = 0; i < maxPredictions; i++) {
-                                // and class labels
-                                labelContainer.appendChild(document.createElement('div'));
-                            }
-                        }
+            // append elements to the DOM
+            labelContainer = document.getElementById('label-container');
+            for (let i = 0; i < maxPredictions; i++) {
+                // and class labels
+                labelContainer.appendChild(document.createElement('div'));
+            }
+        }
 
-                        // run the webcam image through the image model
-                        async function predict() {
-                            // predict can take in an image, video or canvas html element
-                            var image = document.getElementById('imagefruit');
-                            const prediction = await model.predict(image);
-                            prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
-                            console.log(prediction[0].className);
-                            var resultMessage;
-                            switch (prediction[0].className) {
-                                case "cherry":
-                                    resultMessage = '체리녀'
-                                    break;
-                                case "strawberry":
-                                    resultMessage = '딸기녀'
-                                    break;
-                                case "apricot":
-                                    resultMessage = '살구녀'
-                                    break;
-                                case "peach":
-                                    resultMessage = '복숭아녀'
-                                    break;
-                                case "apple":
-                                    resultMessage = '사과녀'
-                                    break;
-                                default:
-                                    resultMessage = '알 수 없음'
-                                    break;
-                            }
-                            $('.result-message').html(resultMessage);
+        // run the webcam image through the image model
+        async function predict() {
+            // predict can take in an image, video or canvas html element
+            var image = document.getElementById('imagefruit');
+            const prediction = await model.predict(image);
+            prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+            console.log(prediction[0].className);
+            var resultMessage;
+            switch (prediction[0].className) {
+                case 'cherry':
+                    resultMessage = '체리녀';
+                    resultBox = '외적으로는 도도하고 섹시한 이미지이지만 알고 보면 귀엽고 통통 튀는 성격을 가진 다양한매력의 소유자. 차가워 보이는 첫인상에 비해 평상시에 자기도 모르게 애교를 흘리는 애교장인이다. 큐티섹시를 한몸에 가지고 있는 이기적이고 사기적인 캐릭터라고 할 수 있다. 도톰한 입술이 특징이며 레드립을 찰떡으로 소화해내어 고혹적인 분위기를 뽐낼 수 있다. ';
+                    break;
+                case 'strawberry':
+                    resultMessage = '딸기녀';
+                    resultBox = '당신의 도도하면서도 귀여운 듯한 매력은 달콤하면서도 상큼한 딸기와 닮았다. 뾰족하고 갸름한 턱선에 감추어진 앙증맞은 볼살이 귀여움을 더한다. 다가가기 어려워 보이지만 무언가 홀리는 매력에 인싸기질이 타고났다. 똑부러지는듯 하면서도 허당끼 있는 모습에 상대방을 푹 빠져들게 한다. 조화롭고 아름다운 이목구비에 만화에서 튀어나온 듯한 느낌이 들기도 한다. ';
+                    break;
+                case 'apricot':
+                    resultMessage = '살구녀';
+                    resultBox = '깨끗한 이미지에 청순하며 분위기 갑인 당신. 오목조목 뚜렷한 이목구비에 가만히 있어도 뿜어져 나오는 따뜻한 분위기에 주변을 편안하게 만들어 준다. 겉으로는 차분해 보이지만 사실은 통통 튀는 성격에 4차원 엉뚱한 매력이 돋보인다. 애교를 부리지 않아도 존재자체가 귀여워 상대방을 심쿵하게 만든다. 의외로 웃음이 많고 털털한 반전매력도 소유하고 있다.    ';
+                    break;
+                case 'peach':
+                    resultMessage = '복숭아녀';
+                    resultBox = '복숭아처럼 투명할정도로 뽀얗고 살짝 감도는 핑크빛의 피부를 가진 당신. 귀여운 듯 뚜렷한 이목구비에 성격도 둥글둥글하고 밝은 당신은 주변에서 사랑받는 사랑둥이 그 자체이다. 몸에 베인 애교와 주변을 밝혀주는 상큼한 미소에 상대방을 기분 좋게 만들어 준다. 웃음이 많아 항상 웃고다니는 웃상이며 엉뚱하면서도 밝은 매력의 소유자이다. ';
+                    break;
+                case 'apple':
+                    resultMessage = '풋사과녀';
+                    resultBox = '당신은 톡 쏘듯 환하게 웃는 것이 매력이다. 겉으로는 차가워 보여 다가가기 힘들지만 웃는 순간 주변이 모두 시원해지고 환해질 정도로 과즙미 넘치는 미소를 가지고 있다. 동글동글하고 시원시원한 이목구비를 가진 것이 특징이며 살짝만 웃어도 과즙이 팡 터지는 느낌을 들게 한다. 성격도 시원하고 애교도 많아서 주변 사람들에게 인기가 많다. ';
+                    break;
+                default:
+                    resultMessage = '알 수 없음';
+                    resultBox = '';
+                    break;
+            }
+            $('.result-message').html(resultMessage);
+            $('.result-box').html(resultBox)
 
-                            for (let i = 0; i < maxPredictions; i++) {
-                                const classPrediction =
-                                    prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
-                                labelContainer.childNodes[i].innerHTML = classPrediction;
-                            }
-                        }
-                    </script>
-                    <selection class="madeby">
-                        <h1 class="title2 p-2 bd-highlight">made by 언수</h1>
-                    </selection>
-                    <script>
-                        function readURL(input) {
-                            if (input.files && input.files[0]) {
-                                var reader = new FileReader();
 
-                                reader.onload = function(e) {
-                                    $('.image-upload-wrap').hide();
+            for (let i = 0; i < maxPredictions; i++) {
+                const classPrediction =
+                    prediction[i].className + ': ' + prediction[i].probability.toFixed(2) * 100 + '%';
+                labelContainer.childNodes[i].innerHTML = classPrediction;
+            }
+        }
+    </script>
 
-                                    $('.file-upload-image').attr('src', e.target.result);
-                                    $('.file-upload-content').show();
+    <!-- <div class="drag-text">
+                    <h3>너의 사진을 넣어줘♥</h3>
+                </div>
+            </div>  -->
+    <selection class="madeby">
+        <h1 class="title2 p-2 bd-highlight">made by 언수</h1>
+    </selection>
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
 
-                                    $('.image-title').html(input.files[0].name);
-                                };
+                reader.onload = function(e) {
+                    $('.image-upload-wrap').hide();
 
-                                reader.readAsDataURL(input.files[0]);
-                                init().then(() => {
-                                    console.log('hi');
-                                    predict();
-                                });
-                            } else {
-                                removeUpload();
-                            }
-                        }
+                    $('.file-upload-image').attr('src', e.target.result);
+                    $('.file-upload-content').show();
 
-                        function removeUpload() {
-                            $('.file-upload-input').replaceWith($('.file-upload-input').clone());
-                            $('.file-upload-content').hide();
-                            $('.image-upload-wrap').show();
-                        }
-                        $('.image-upload-wrap').bind('dragover', function() {
-                            $('.image-upload-wrap').addClass('image-dropping');
-                        });
-                        $('.image-upload-wrap').bind('dragleave', function() {
-                            $('.image-upload-wrap').removeClass('image-dropping');
-                        });
-                    </script>
+                    // $('.image-title').html(input.files[0].name);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+                init().then(() => {
+                    console.log('hi');
+                    predict();
+
+                });
+            } else {
+                removeUpload();
+            }
+        }
+
+        function removeUpload() {
+            $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+            $('.file-upload-content').hide();
+            $('.image-upload-wrap').show();
+        }
+        $('.image-upload-wrap').bind('dragover', function() {
+            $('.image-upload-wrap').addClass('image-dropping');
+        });
+        $('.image-upload-wrap').bind('dragleave', function() {
+            $('.image-upload-wrap').removeClass('image-dropping');
+        });
+    </script>
 </body>
 <!-- Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
 
