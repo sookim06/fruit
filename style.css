@@ -5,8 +5,8 @@ body {
 
 .file-upload {
     background-color: #fdfafa;
-    width: 535px;
-    height: 697px;
+    width: 40rem;
+    height: 50rem;
     margin: 0 auto;
     padding: 6rem;
 }
@@ -58,8 +58,8 @@ body {
     margin-top: 27px;
     border: 2px dashed #d14532;
     position: relative;
-    width: 367px;
-    height: 315px;
+    width: 23rem;
+    height: 21rem;
 }
 
 .image-dropping,
