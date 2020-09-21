@@ -214,4 +214,6 @@ body {
     font-weight: bold;
 }
 
-#thread__containner {}
+element.style {
+    padding-top: 6rem;
+}
