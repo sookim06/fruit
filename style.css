@@ -8,7 +8,7 @@ body {
     width: 32rem;
     height: 58rem;
     margin: 0 auto;
-    padding: 6rem;
+    padding: 3rem;
 }
 
 .file-upload-btn {
@@ -213,3 +213,5 @@ body {
     font-family: serif;
     font-weight: bold;
 }
+
+#thread__containner {}
