@@ -5,13 +5,8 @@ body {
 
 .file-upload {
     background-color: #fdfafa;
-<<<<<<< HEAD
     width: 32rem;
     height: 58rem;
-=======
-    width: 40rem;
-    height: 50rem;
->>>>>>> f0a2e87a1b83be9e35ee58cb582d9b87abbb3f3a
     margin: 0 auto;
     padding: 6rem;
 }
@@ -63,13 +58,8 @@ body {
     margin-top: 27px;
     border: 2px dashed #d14532;
     position: relative;
-<<<<<<< HEAD
     width: 20rem;
     height: 18rem;
-=======
-    width: 23rem;
-    height: 21rem;
->>>>>>> f0a2e87a1b83be9e35ee58cb582d9b87abbb3f3a
 }
 
 .image-dropping,
@@ -204,7 +194,6 @@ body {
     box-sizing: border-box;
     padding: 3px;
 }
-<<<<<<< HEAD
 
 .result-message {
     font-weight: bolder;
@@ -215,14 +204,12 @@ body {
 .result-box {
     font-family: serif;
     font-size: 1rem;
-    background-color: #ffffff;
+    background-color: #f8e6e6;
     font-weight: bold;
-    color: #f8e6e6;
+    color: #000000;
 }
 
 #label-container {
     font-family: serif;
     font-weight: bold;
 }
-=======
->>>>>>> f0a2e87a1b83be9e35ee58cb582d9b87abbb3f3a
