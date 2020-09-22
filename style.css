@@ -214,6 +214,16 @@ body {
     font-weight: bold;
 }
 
-element.style {
-    padding-top: 6rem;
+.find-friend {
+    background-color: #f18f81;
+}
+
+.who {
+    font-family: serif;
+    padding-left: 12rem;
+}
+
+.my-friend {
+    font-family: serif;
+    padding-left: 13rem;
 }
