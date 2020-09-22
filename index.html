@@ -45,12 +45,12 @@
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
                     Search
                 </button>
-            </form>
+            </form> -->
         </div>
     </nav>
     <selection class="hi">
@@ -75,6 +75,10 @@
 
     <!-- </selection> -->
 
+
+    <button name="button">여</button>
+    <button name="button">남</button>
+
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <div class="file-upload container">
         <div class="image-upload-wrap container">
@@ -86,7 +90,7 @@
         <div class="file-upload-content">
             <img class="file-upload-image" id="imagefruit" src="#" alt="your image" />
             <p class="result-message"></p>
-            <span class="result-box"></span>
+            <span class="result-box">분석중♥ 조금만 기다려줘</span>
             <div id="label-container"></div>
 
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -204,8 +208,8 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
             }
             $('.result-message').html(resultMessage);
             $('.result-box').html(resultBox)
+            $('.find-friend').html()
             $('.who').html("나의 환상의 짝꿍")
-
             $('.my-friend').html(friend)
 
 
