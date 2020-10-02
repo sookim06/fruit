@@ -47,12 +47,7 @@
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                    Search
-                </button>
-            </form> -->
+
         </div>
     </nav>
     <selection class="hi">
@@ -64,18 +59,7 @@
         <h1 class="title">내과태</h1>
         <h2 class="subtitle container">=내가 과일로 태어난다면?</h2>
     </selection>
-    <!-- <selection class="container youtube d-flex flex-row-reverse bd-highlight">
-            <div class="youtube-cover">
-                <img src="" alt="" class="yutube-icon" /><a href="" class="youtube-link"
-                    >made by 언수</a
-                >
-            </div>
-        </selection> -->
 
-    <!-- <selection class="madeby">
-            <h1 class="title2 p-2 bd-highlight">made by 언수</h1> -->
-
-    <!-- </selection> -->
 
 
     <section class="d-flex justify-content-center">
@@ -108,6 +92,7 @@
             <div id="label-container"></div>
 
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <p class="sns">SNS 에서 환상의 짝꿍 찾으러 가기</p>
             <div class="addthis_inline_share_toolbox"></div>
             <!-- <div class="find-friend container">
                 <p class="who container"></p>
@@ -124,12 +109,8 @@
 
     <div id="webcam-container"></div>
     <div id="label-container"></div>
-    <div id="disqus_thread">
-
-        <p>SNS 에서 환상의 짝꿍 찾으러 가기</p>
-
-    </div>
-    <script>
+    <!-- <div id="disqus_thread"></div> -->
+    <!-- <script>
         /**
          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -147,7 +128,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
             s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);
         })();
-    </script>
+    </script> -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -351,6 +332,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
             $('.text-center').hide()
 
 
+
             for (let i = 0; i < maxPredictions; i++) {
                 const classPrediction =
                     prediction[i].className + ': ' + prediction[i].probability.toFixed(2) * 100 + '%';
@@ -363,9 +345,15 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
                     <h3>너의 사진을 넣어줘♥</h3>
                 </div>
             </div>  -->
-    <selection class="madeby">
-        <h1 class="title2 p-2 bd-highlight">made by 언수</h1>
+    <selection class="madeby container">
+        <h1 class="made-by container">made by 김매실</h1>
+        <div class='youtube container'>
+            <a href="https://www.youtube.com/c/조코딩JoCoding" class='youtube-link container'>제작도움 : 조코딩 유튜브</a>
+        </div>
     </selection>
+
+
+
     <script>
         function readURL(input) {
             if (input.files && input.files[0]) {
