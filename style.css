@@ -210,7 +210,11 @@ body {
     line-height: 1.71;
     text-align: center;
     color: #312323;
-    font-size: 120%;
+    font-size: 140%;
+}
+
+.youtube {
+    text-align: center;
 }
 
 .youtube-link {
@@ -218,8 +222,7 @@ body {
     line-height: 1.71;
     text-align: center;
     color: #f73737;
-    font-size: 125%;
-    padding-left: 37%;
+    font-size: 150%;
 }
 
 label {
