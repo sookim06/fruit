@@ -6,7 +6,7 @@ body {
 
 .file-upload {
     background-color: #fdfafa;
-    width: 70%;
+    width: 76%;
     height: 72%;
     border-radius: 10px;
     margin: 0 auto;
@@ -95,14 +95,16 @@ body {
 }
 
 .remove-image {
-    width: 12rem;
-    margin: 0;
+    width: 43%;
+    margin: 0%;
+    margin-top: 6%;
     color: #fff;
-    background: #ff851699;
+    font-size: larger;
+    background: #f34d4d8c;
     border: none;
     padding: 0.5rem;
     border-radius: 32rem;
-    border-bottom: 0.5rem solid #d06514;
+    border-bottom: 0.5rem solid #d34652;
     transition: all .2s ease;
     outline: none;
     text-transform: uppercase;
@@ -137,7 +139,9 @@ body {
 
 .hellow {
     background-color: #c90f0f;
-    color: #c90f0f
+    color: #c90f0f;
+    margin-top: -4%;
+    margin-bottom: 3%;
 }
 
 .section {
@@ -146,6 +150,7 @@ body {
 
 .title {
     font-family: 'Hi Melody', cursive;
+    font-size: -webkit-xxx-large;
     line-height: 1.68;
     text-align: center;
     font-weight: bolder;
@@ -165,6 +170,18 @@ body {
     font-size: 100%;
     line-height: 1.53;
     color: #35456d;
+}
+
+.pr-3,
+.px-3 {
+    padding-right: 1rem!important;
+    font-size: xx-large;
+}
+
+.pl-3,
+.px-3 {
+    padding-left: 1rem!important;
+    font-size: xx-large;
 }
 
 
@@ -219,11 +236,12 @@ input:checked+label>.knob {
     transition: 0.3s;
 }
 
-@media (min-width: 768px) .container,
+
+/* @media (min-width: 768px) .container,
 .container-md,
 .container-sm {
     max-width: 720px;
-}
+} */
 
 *,
  ::after,
@@ -235,8 +253,111 @@ input:checked+label>.knob {
 .result-message {
     font-weight: bolder;
     font-family: 'Hi Melody', cursive;
-    ;
+    color: #550b0b;
+    font-size: xx-large;
+}
+
+.fruit-title {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
     color: #f73737;
+    font-size: xx-large;
+}
+
+.fruit-explain {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    color: #f73737;
+    font-size: x-large;
+}
+
+.best-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f19386;
+    color: aliceblue;
+    font-size: x-large;
+    margin-top: 5%;
+}
+
+.cherry_boy-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.strawberry_boy-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.orange_boy-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.peach_boy-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.kiwi_boy-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.cherry_girl-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.strawberry_girl-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.apricot_girl-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.peach_girl-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
+}
+
+.apple_girl-fruit-friend {
+    font-weight: bolder;
+    font-family: 'Hi Melody', cursive;
+    background-color: #f7beb7;
+    color: rgb(33, 43, 51);
+    font-size: x-large;
 }
 
 .result-box {
@@ -250,7 +371,7 @@ input:checked+label>.knob {
 
 #label-container {
     font-family: 'Hi Melody', cursive;
-    ;
+    font-size: x-large;
     font-weight: bold;
 }
 
