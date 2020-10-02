@@ -160,6 +160,7 @@ body {
 .subtitle {
     font-family: 'Hi Melody', cursive;
     line-height: 1.53;
+    font-size: 225%;
     text-align: center;
     color: #777f91;
     font-weight: bolder;
