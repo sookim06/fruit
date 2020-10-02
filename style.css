@@ -205,12 +205,21 @@ body {
     }
 }
 
+.made-by {
+    font-family: 'Hi Melody', cursive;
+    line-height: 1.71;
+    text-align: center;
+    color: #312323;
+    font-size: 120%;
+}
+
 .youtube-link {
     font-family: 'Hi Melody', cursive;
     line-height: 1.71;
     text-align: center;
     color: #f73737;
-    font-size: 50%;
+    font-size: 125%;
+    padding-left: 37%;
 }
 
 label {
@@ -250,6 +259,10 @@ input:checked+label>.knob {
  ::before {
     box-sizing: border-box;
     padding: 3px;
+}
+
+.text-center {
+    font-size: x-large;
 }
 
 .result-message {
@@ -364,11 +377,20 @@ input:checked+label>.knob {
 
 .result-box {
     font-family: 'Hi Melody', cursive;
-    ;
     font-size: 1rem;
     background-color: #f8e6e6;
     font-weight: bold;
     color: #000000;
+}
+
+.sns {
+    font-family: 'Hi Melody', cursive;
+    font-size: 130%;
+    background-color: #fdcece;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 8%;
+    height: 65%;
 }
 
 #label-container {
