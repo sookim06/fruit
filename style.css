@@ -195,6 +195,9 @@ body {
     .navbar-brand {
         font-size: 2rem;
     }
+    .fruit-explain {
+        font-size: 10px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -286,7 +289,7 @@ input:checked+label>.knob {
     font-weight: bolder;
     font-family: 'Hi Melody', cursive;
     color: #f73737;
-    font-size: 70%;
+    font-size: 1.5rem;
 }
 
 .best-friend {
