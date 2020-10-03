@@ -208,6 +208,19 @@ body {
     }
 }
 
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .made-by {
     font-family: 'Hi Melody', cursive;
     line-height: 1.71;
