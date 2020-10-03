@@ -428,3 +428,8 @@ input:checked+label>.knob {
     font-family: 'Hi Melody', cursive;
     padding-left: 13rem;
 }
+
+.ad-banner{
+    width: 320px;
+    margin: 0 auto;
+}
